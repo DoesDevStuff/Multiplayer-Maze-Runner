@@ -24,7 +24,17 @@ json stringToJsonObject(char *jsonString) {
 		return NULL;
 	}
 
-	json jsonObj = json::parse(jsonString);
+	json jsonObj;
+	try {
+	jsonObj = json::parse(jsonString);
+	}
+	catch(exception& e) {
+		//jsonObj = NULL;
+		cout << "exception converting string to json object: " << e.what() << endl;
+		cout << "json string: " << endl << jsonString << endl;
+		return NULL;
+	}
+
 	if (jsonObj == NULL)
 		cout << "stringToJsonObject: could not parse message: " << jsonString << endl;
 
