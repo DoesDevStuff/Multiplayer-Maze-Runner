@@ -1,0 +1,12 @@
+
+nlohmann Json library download and documentation:
+https://json.nlohmann.me/
+
+SFML:
+https://www.sfml-dev.org/download.php
+Need to download 32bit SFML for MinGw
+
+Java 17:
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+download jdk-17.0.1_windows-x64_bin.zip
+

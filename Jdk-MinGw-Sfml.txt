@@ -1,0 +1,17 @@
+
+Jdk-MinGw-Sfml.zip
+extract zip to d:\
+jdk-17
+MinGw
+SFML
+
+Set the following variables
+JAVA_HOME=D:\jdk-17
+
+PATH
+D:\jdk-17\bin
+D:\MinGw\bin
+D:\SFML\bin
+
+JAVA_HOME
+D:\jdk-17
