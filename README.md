@@ -1,6 +1,13 @@
 # Multiplayer Maze Runner
 Final project for the Msc Networks developement at Abertay University.
 
+Video demonstration
+
+
+https://user-images.githubusercontent.com/74312830/227738700-55bccdb4-2aea-42c2-988f-27132ac64099.mp4
+
+
+
 # Introduction
 The project is a real time server client multiplayer Maze Runner.The game comprises a player (the runner) and an opponent (the chaser). Both of the players are present within a randomly generated maze and are spawned at two different ends of the same layout. The objective of the game is for the runners to traverse through the maze as quickly as possible to the exit door, and for the chasers to attempt to stop or slow down the runners. Game ends if the runners reach the exit and in that case they win; else if the opponents intercept the runner before they make it to the exit then the chasers win.
 
